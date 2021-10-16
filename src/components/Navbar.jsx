@@ -13,6 +13,9 @@ const Navbar = () => {
                     <li><Link to='/wontact'>TOP RATED</Link></li>
                 </ul>
             </div>
+            <div>
+                search
+            </div>
         </div>
     )
 }
