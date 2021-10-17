@@ -23,7 +23,8 @@ const Home = () => {
           {list && list.map((movie) => <MovieBox list={movie} />)}
         </div>
        <div className="sidebar">
-         <h3 style={{background:"rgb(15, 23, 42)"}}> Discover options </h3>
+         <h3 style={{background:"rgb(15, 23, 42)",
+        marginBottom:"3rem"}}> Discover options </h3>
          <p>Type </p>
          <select className="movies">
   <option value="movie">Movies</option>
@@ -40,13 +41,13 @@ const Home = () => {
   <option value="sci">Sci-Fi</option>
 </select>
 
-   <div>
+   <div className="rating">
      <p> Rating </p>
-   <span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
+   <span className="fa fa-star checked rating"></span>
+<span className="fa fa-star checked rating"></span>
+<span className="fa fa-star checked rating"></span>
+<span className="fa fa-star rating"></span>
+<span className="fa fa-star rating"></span>
    </div>
         
        </div>

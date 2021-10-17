@@ -28,6 +28,10 @@
 .menus {
 position: relative;
 right: 10rem;
+color: gold;
+}
+.menus li {
+  color:gold;
 }
 .menu a{
   color: #fff;
@@ -82,7 +86,7 @@ right: 10rem;
   flex-direction: column;
   font-weight: bolder;
   color: #fff;
-  background: rgb(15, 23, 42);
+  background-color: rgb(15, 23, 42);
 }
 select {
   background: transparent;
@@ -90,4 +94,20 @@ select {
 }
 .checked {
   color: orange;
+}
+.sidebar p {
+  background-color: rgb(15, 23, 42);
+  margin-bottom: .5rem;
+}
+.sidebar select {
+  width: 60%;
+  margin-bottom: 1rem;
+  height: 2rem;
+  list-style: square;
+  color: #fff;
+  background-color: rgb(30, 41, 59);
+}
+.rating {
+  border: rgb(15, 23, 42);
+  margin-top: .5rem;
 }
