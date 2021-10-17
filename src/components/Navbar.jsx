@@ -8,13 +8,14 @@ const Navbar = () => {
             <div className="menus">
                 <ul className="menu">
                     <li><Link to='/'>POPULAR</Link></li>
-                    <li><Link to='/watchlist'>NEWEST</Link></li>
-                    <li><Link to='/wontact'>TRENDING</Link></li>
-                    <li><Link to='/wontact'>TOP RATED</Link></li>
+                    <li><Link to='/newest'>NEWEST</Link></li>
+                    <li><Link to='/trending'>TRENDING</Link></li>
+                    <li><Link to='/toprated'>TOP RATED</Link></li>
                 </ul>
             </div>
-            <div>
-                search
+            <div className ="search">
+            <button></button>
+            <input type="text" placeholder ="Search"></input>
             </div>
         </div>
     )
